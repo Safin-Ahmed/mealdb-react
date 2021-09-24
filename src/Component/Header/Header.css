@@ -1,0 +1,25 @@
+header img {
+    height: 200px;
+}
+.primary-menu {
+    background-color: #D70F63;
+    line-height: 50px;
+}
+.primary-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.primary-menu ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+.primary-menu ul li a:hover {
+    background-color: white;
+    color: #D70F63;
+}
