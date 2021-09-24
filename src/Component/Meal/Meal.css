@@ -7,6 +7,10 @@
     outline: none;
     padding: 8px 15px;
     transition: all 0.3s ease;
+    color: #fff;
+}
+button.add-meal {
+    margin-left: 15px;
 }
 .single-meal button a {
     text-decoration: none;
@@ -15,6 +19,7 @@
 }
 .single-meal button:hover {
     background-color: #fff;
+    color: #D70F63;
 }
 .single-meal button:hover a {
     color: #D70F63;

@@ -6,9 +6,11 @@ const Meal = (props) => {
     return (
         <div className = "single-meal">
             <img src={strMealThumb} alt="" />
+            <p>{idMeal}</p>
             <h3>Food Name : {strMeal}</h3>
             <h4>Made In: {strArea}</h4>
             <button><a href={strYoutube}>Watch Video</a></button>
+            <button onClick = {() => {props.addMeal(props.meal)}} className="add-meal">Add the Meal</button>
         </div>
     );
 };
