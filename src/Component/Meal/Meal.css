@@ -24,3 +24,14 @@ button.add-meal {
 .single-meal button:hover a {
     color: #D70F63;
 }
+.search-container {
+    background-color: #D70F63;
+    line-height: 50px;
+}
+.search-container input {
+    border: none;
+    outline: none;
+    width: 45%;
+    padding: 8px 0;
+    padding-left: 10px;
+}
