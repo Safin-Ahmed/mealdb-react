@@ -1,0 +1,21 @@
+.single-meal img {
+    width: 50%;
+}
+.single-meal button {
+    background: #D70F63;
+    border: 0px;
+    outline: none;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+}
+.single-meal button a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.single-meal button:hover {
+    background-color: #fff;
+}
+.single-meal button:hover a {
+    color: #D70F63;
+}
